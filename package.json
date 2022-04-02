@@ -1,0 +1,28 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.1.0",
+    "path": "^0.12.7",
+    "sass": "^1.49.9",
+    "unplugin-auto-import": "^0.6.4",
+    "unplugin-vue-components": "^0.18.0",
+    "vue": "^3.2.25",
+    "vue-contenteditable": "^3.0.4",
+    "vue-router": "4",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
